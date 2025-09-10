@@ -1,7 +1,12 @@
 ; Basic types
 ; Assemble the program: nasm -f elf64 data_types.asm -o data_types.o
+                    ;   nasm -f elf64 -o data_types.o data_types.asm 
 ; Link it:              ld data_types.o -o data_types
+<<<<<<< HEAD
 ; Run the file                      
+=======
+; Run the file          ./data_types
+>>>>>>> b5003c0615a19fb902b0830e46d546a6447c7a05
 
 section .data
     ; Basic integer types
